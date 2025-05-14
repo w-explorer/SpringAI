@@ -1,0 +1,14 @@
+server:
+  port: 9000
+
+spring:
+  ai:
+    openai:
+      api-key: sk-ptnmiezpwrsvgbqwmcbfyrtvadkzrdjfylmyuezcntaflvom
+      base-url: https://api.siliconflow.cn
+      chat:
+        options:
+          model: Pro/Qwen/Qwen2.5-VL-7B-Instruct # 选择的对话模型
+      image:
+        options:
+          model: Kwai-Kolors/Kolors
